@@ -1,0 +1,22 @@
+.zoom {
+  transform: 0.5s;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.enrutado{
+  cursor: pointer;
+}
+
+.contDummyImg{
+  background-color: black;
+  height: 100%;
+}
+
+.img-fluid{
+  width: 300px;
+}

@@ -1,0 +1,122 @@
+<main class="flex-shrink-0 d-flex flex-column h-100 bg-light">
+  <!-- Header-->
+  <app-header></app-header>
+  <!-- Projects Section-->
+  <section class="py-5">
+    <div class="container px-5 mb-5">
+      <div class="text-center mb-5">
+        <h1 class="display-5 fw-bolder mb-0">
+          <span class="text-gradient d-inline">Projects</span>
+        </h1>
+      </div>
+      <div class="row gx-5 justify-content-center">
+        <div class="col-lg-11 col-xl-9 col-xxl-8">
+          <!-- Project Card 1-->
+          <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+            <div class="card-body p-0">
+              <div
+                class="d-flex align-items-center enrutado"
+                (click)="openWeb('https://capitalprimeec.com/')"
+              >
+                <div class="p-5">
+                  <h2 class="fw-bolder">
+                    Sitio Web Corporativo para Capitalprime
+                  </h2>
+                  <p>
+                    Desarrollé de forma integral el sitio web corporativo de
+                    Capitalprime, encargándome del frontend, backend y la base
+                    de datos. La web es completamente responsiva, dinámica y
+                    parametrizable. Presenta la información institucional de la
+                    empresa e integra catálogos dinámicos de servicios, además
+                    de formularios interactivos para contacto y solicitudes de
+                    cotización.
+                  </p>
+                </div>
+                <img
+                  class="img-fluid zoom"
+                  src="assets/Capitalprime_page.gif"
+                  alt="Sitio Web Corporativo"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- Project Card 2-->
+          <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+            <div class="card-body p-0">
+              <div
+                class="d-flex align-items-center enrutado"
+                (click)="
+                  openWeb(
+                    'https://github.com/Corian2108/k_dw_chef/tree/develop'
+                  )
+                "
+              >
+                <div class="p-5">
+                  <h2 class="fw-bolder">
+                    Digital Waiter: Aplicación movil para restaurantes.
+                  </h2>
+                  <p>
+                    Desarrollé una aplicación movil integral para restaurantes
+                    que combina funcionalidades informativas y de interacción
+                    con los clientes. La aplicación permite a los comensales
+                    explorar el menú digital y realizar pedidos, desarrollado en
+                    React Ntive. El API que consume la aplicación está
+                    desarrollado en Laravel
+                  </p>
+                </div>
+                <img
+                  class="img-fluid"
+                  src="assets/logo_github_black.jpg"
+                  alt="Plataforma Web con Juego de Fidelización"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- Project Card -->
+          <div class="card overflow-hidden shadow rounded-4 border-0">
+            <div class="card-body p-0">
+              <div
+                class="d-flex align-items-center enrutado"
+                (click)="
+                  openWeb('https://github.com/Corian2108/k_dw_api/tree/backend')
+                "
+              >
+                <div class="p-5">
+                  <h2 class="fw-bolder">
+                    Digital Waiter: API de menus y pedidos.
+                  </h2>
+                  <p>
+                    API para la aplicación Digital Waiter en Laravel, este API
+                    se comunica con una base de datos en PostgreSQL de donde
+                    obtiene todos los parámetros de los menus y permite guardar
+                    los pedidos.
+                  </p>
+                </div>
+                <img
+                  class="img-fluid"
+                  src="assets/logo_github_black.jpg"
+                  alt="Plataforma Web con Juego de Fidelización"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Call to action section-->
+  <section class="py-5 bg-gradient-primary-to-secondary text-white">
+    <div class="container px-5 my-5">
+      <div class="text-center">
+        <h2 class="display-4 fw-bolder mb-4">Construyamos algo juntos</h2>
+        <a
+          class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder"
+          href="/contact"
+          >Contáctame</a
+        >
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <app-footer></app-footer>
+</main>

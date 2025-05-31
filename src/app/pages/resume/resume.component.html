@@ -1,0 +1,391 @@
+<main class="flex-shrink-0 d-flex flex-column h-100 bg-light">
+  <!-- Header-->
+  <app-header></app-header>
+  <!-- Page Content-->
+  <div class="container px-5 my-5">
+    <div class="text-center mb-5">
+      <h1 class="display-5 fw-bolder mb-0">
+        <span class="text-gradient d-inline">Experiencia</span>
+      </h1>
+    </div>
+    <div class="row gx-5 justify-content-center">
+      <div class="col-lg-11 col-xl-9 col-xxl-8">
+        <!-- Experience Section-->
+        <section>
+          <div class="d-flex align-items-center justify-content-between mb-4">
+            <h2 class="text-primary fw-bolder mb-0">Currículum</h2>
+            <!-- Download resume button-->
+            <!-- Note: Set the link href target to a PDF file within your project-->
+            <a
+              class="btn btn-primary px-4 py-3"
+              routerLink="/contact"
+              [queryParams]="{
+                message: 'Hola, me gustaría solicitar tu hoja de vida.'
+              }"
+            >
+              <div class="d-inline-block bi bi-file-earmark-person me-2"></div>
+              Solicitar hoja de vida
+            </a>
+          </div>
+          <!-- Experience Card 1-->
+          <div class="card shadow border-0 rounded-4 mb-5">
+            <div class="card-body p-5">
+              <div class="row align-items-center gx-5">
+                <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                  <div class="bg-light p-4 rounded-4">
+                    <div class="text-primary fw-bolder mb-2">
+                      Mayo 2022 - Julio 2024
+                    </div>
+                    <div class="small fw-bolder">Desarrollador Web</div>
+                    <div class="small text-muted">CapitalPrime S.A.</div>
+                    <div class="small text-muted">Quto - Ecuador</div>
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div>
+                    <strong>
+                      CapitalPrime (Grupo GSA - Presencia en Latinoamérica)
+                    </strong>
+                    Durante dos años trabajé como desarrollador, creando y
+                    mejorando funcionalidades para tres empresas del grupo.
+                    Adquirí experiencia en sistemas CRM y ERP, usando Angular
+                    (frontend), .NET (API REST) y SQL Server. También fui
+                    responsable de actualizaciones y soporte a usuarios.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Experience Card 2-->
+          <div class="card shadow border-0 rounded-4 mb-5">
+            <div class="card-body p-5">
+              <div class="row align-items-center gx-5">
+                <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                  <div class="bg-light p-4 rounded-4">
+                    <div class="text-primary fw-bolder mb-2">
+                      Agosto 2019 - Abril 2022
+                    </div>
+                    <div class="small fw-bolder">Doer</div>
+                    <div class="small text-muted">Linkear S.A.</div>
+                    <div class="small text-muted">Quito - Ecuador</div>
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div>
+                    Como Scrum Master lideré dos equipos de hasta 5 integrantes
+                    en el desarrollo de dos apps móviles: una red social para
+                    dueños de mascotas y un menú digital gamificado para
+                    restaurantes, que incluía un minijuego de fidelización.
+                    Usamos React Native, Laravel y PostgreSQL. Mi rol fue clave
+                    en la organización, planificación y entrega de cada
+                    proyecto.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Education Section-->
+        <section>
+          <h2 class="text-secondary fw-bolder mb-4">Educación</h2>
+          <!-- Education Card 1-->
+          <div class="card shadow border-0 rounded-4 mb-5">
+            <div class="card-body p-5">
+              <div class="row align-items-center gx-5">
+                <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                  <div class="bg-light p-4 rounded-4">
+                    <div class="text-secondary fw-bolder mb-2">2019 - 2022</div>
+                    <div class="mb-2">
+                      <div class="small fw-bolder">
+                        Instituto Tecnológico Superior Yavirac
+                      </div>
+                      <div class="small text-muted">Quito - Ecuador</div>
+                    </div>
+                    <div class="fst-italic">
+                      <div class="small text-muted">Tecnología</div>
+                      <div class="small text-muted">Desarrollo Web</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div>
+                    Formación dual implementada por profesionales alemanes, que
+                    me permitió trabajar dos meses por semestre en empresas
+                    reales como parte del currículo. Esta experiencia me brindó
+                    acompañamiento académico y empresarial, permitiéndome
+                    participar en proyectos reales y adquirir habilidades
+                    prácticas desde el inicio de mi carrera.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Education Card 2-->
+          <div class="card shadow border-0 rounded-4 mb-5">
+            <div class="card-body p-5">
+              <div class="row align-items-center gx-5">
+                <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                  <div class="bg-light p-4 rounded-4">
+                    <div class="text-secondary fw-bolder mb-2">2025</div>
+                    <div class="mb-2">
+                      <div class="small fw-bolder">IBM</div>
+                      <div class="small text-muted">IBM SkillsBuild</div>
+                    </div>
+                    <div class="fst-italic">
+                      <div class="small text-muted">Certificado Digital</div>
+                      <div class="small text-muted">
+                        Fundamentos Del Desarrollo Web
+                        <br/>
+                        <a
+                          href="https://www.credly.com/badges/9417656e-856f-4a5d-a167-3a5d7ca9adc3/public_url"
+                          target="_blank"
+                          >Ver certificado digital</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div>
+                    Curso enfocado en los fundamentos del desarrollo web, donde
+                    adquirí conocimientos sobre HTML, CSS y JavaScript, así como
+                    prácticas de testing y despliegue. Desarrollé una página web
+                    interactiva tipo "To-Do List" mediante simulaciones guiadas.
+                    El curso incluyó orientación profesional y recursos para
+                    iniciar una carrera en el área.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Divider-->
+        <div class="pb-5"></div>
+        <!-- Skills Section-->
+        <section>
+          <!-- Skillset Card-->
+          <div class="card shadow border-0 rounded-4 mb-5">
+            <div class="card-body p-5">
+              <!-- Professional skills list-->
+              <div class="mb-5">
+                <div class="d-flex align-items-center mb-4">
+                  <div
+                    class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"
+                  >
+                    <i class="bi bi-tools"></i>
+                  </div>
+                  <h3 class="fw-bolder mb-0">
+                    <span class="text-gradient d-inline"
+                      >Habilidades Profesionales</span
+                    >
+                  </h3>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 mb-4">
+                  <div class="col mb-4 mb-md-0">
+                    <div
+                      class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
+                    >
+                      Desarrollo Web Full Stack
+                    </div>
+                  </div>
+                  <div class="col mb-4 mb-md-0">
+                    <div
+                      class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
+                    >
+                      Diseño UI/UX para Web y Móvil
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div
+                      class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
+                    >
+                      Levantamiento y Análisis de Requerimientos
+                    </div>
+                  </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 mb-4">
+                  <div class="col mb-4 mb-md-0">
+                    <div
+                      class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
+                    >
+                      Administración de Bases de Datos
+                    </div>
+                  </div>
+                  <div class="col mb-4 mb-md-0">
+                    <div
+                      class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
+                    >
+                      Automatización de Procesos
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div
+                      class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
+                    >
+                      Implementación de ETL (Extract, Transform, Load)
+                    </div>
+                  </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3">
+                  <div class="col mb-4 mb-md-0">
+                    <div
+                      class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
+                    >
+                      Detección y Resolución de Errores
+                    </div>
+                  </div>
+                  <div class="col mb-4 mb-md-0">
+                    <div
+                      class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
+                    >
+                      Visualización de Datos con Dashboards
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div
+                      class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
+                    >
+                      Estrategias de Presencia Digital
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Languages list-->
+              <div class="mb-0">
+                <div class="d-flex align-items-center mb-4">
+                  <div
+                    class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"
+                  >
+                    <i class="bi bi-code-slash"></i>
+                  </div>
+                  <h3 class="fw-bolder mb-0">
+                    <span class="text-gradient d-inline"
+                      >Lenguajes Y Frameworks</span
+                    >
+                  </h3>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 mb-4">
+                  <div class="col mb-4 mb-md-0">
+                    <div
+                      class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
+                    >
+                      HTML
+                    </div>
+                  </div>
+                  <div class="col mb-4 mb-md-0">
+                    <div
+                      class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
+                    >
+                      CSS
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div
+                      class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
+                    >
+                      JavaScript
+                    </div>
+                  </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 mb-4">
+                  <div class="col mb-4 mb-md-0">
+                    <div
+                      class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
+                    >
+                      Typescript
+                    </div>
+                  </div>
+                  <div class="col mb-4 mb-md-0">
+                    <div
+                      class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
+                    >
+                      C#
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div
+                      class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
+                    >
+                      Python
+                    </div>
+                  </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 mb-4">
+                  <div class="col mb-4 mb-md-0">
+                    <div
+                      class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
+                    >
+                      PHP
+                    </div>
+                  </div>
+                  <div class="col mb-4 mb-md-0">
+                    <div
+                      class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
+                    >
+                      SQL
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div
+                      class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
+                    >
+                      Angular
+                    </div>
+                  </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 mb-4">
+                  <div class="col mb-4 mb-md-0">
+                    <div
+                      class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
+                    >
+                      .NET
+                    </div>
+                  </div>
+                  <div class="col mb-4 mb-md-0">
+                    <div
+                      class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
+                    >
+                      Laravel
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div
+                      class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
+                    >
+                      Docker
+                    </div>
+                  </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3">
+                  <div class="col mb-4 mb-md-0">
+                    <div
+                      class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
+                    >
+                      AWS
+                    </div>
+                  </div>
+                  <div class="col mb-4 mb-md-0">
+                    <div
+                      class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
+                    >
+                      Unity
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div
+                      class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
+                    >
+                      Blender
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <app-footer></app-footer>
+</main>

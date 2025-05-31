@@ -1,0 +1,14 @@
+#whatsapp{
+    background-color: #25D366;
+    border-color: #25D366;
+    width: 100%;
+}
+
+#whatsapp:hover{
+    background-color: #128C7E;
+    border-color: #128C7E;
+}
+
+.feedback{
+    color: rgb(236, 45, 45);
+}

@@ -1,0 +1,112 @@
+<main class="flex-shrink-0">
+  <!-- Header-->
+  <app-header></app-header>
+  <!-- Page content-->
+  <section class="py-5">
+    <div class="container px-5">
+      <!-- Contact form-->
+      <div class="bg-light rounded-4 py-5 px-4 px-md-5">
+        <div class="text-center mb-5">
+          <div
+            class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 mb-3"
+          >
+            <i class="bi bi-envelope"></i>
+          </div>
+          <h1 class="fw-bolder">Pongamonos en contacto</h1>
+          <p class="lead fw-normal text-muted mb-0">¡Trabajemos juntos!</p>
+        </div>
+        <div class="row gx-5 justify-content-center">
+          <div class="col-lg-8 col-xl-6">
+            <form
+              [formGroup]="contactForm"
+              id="contactForm"
+              (ngSubmit)="onSubmit()"
+            >
+              <!-- Name input-->
+              <div class="form-floating mb-3">
+                <input
+                  class="form-control"
+                  id="name"
+                  type="text"
+                  placeholder="Enter your name..."
+                  formControlName="name"
+                />
+                <label for="name">Nombres *</label>
+                @if(trySend && contactForm.controls.name.invalid){
+                <div class="feedback">Ingrese su nombre</div>
+                }
+              </div>
+              <!-- Email address input-->
+              <div class="form-floating mb-3">
+                <input
+                  class="form-control"
+                  id="email"
+                  type="email"
+                  placeholder="name@example.com"
+                  formControlName="email"
+                />
+                <label for="email">Correo Electrónico *</label>
+                @if(trySend && contactForm.controls.email.invalid){
+                <div class="feedback">Ingrese un correo válido</div>
+                }
+              </div>
+              <!-- Phone number input-->
+              <div class="form-floating mb-3">
+                <input
+                  class="form-control"
+                  id="phone"
+                  type="tel"
+                  placeholder="0988888888"
+                  formControlName="phone"
+                  maxlength="10"
+                  pattern="^0[0-9]{9}$"
+                  (keypress)="onlyNumbers($event)"
+                />
+                <label for="phone">Número telefónico *</label>
+                @if (trySend && contactForm.controls.phone.invalid) {
+                <div class="feedback">Ingrese un teléfono válido.</div>
+                }
+              </div>
+              <!-- Message input-->
+              <div class="form-floating mb-3">
+                <textarea
+                  class="form-control"
+                  formControlName="message"
+                  id="message"
+                  type="text"
+                  placeholder="¿Qué pregunta tienes para mí?"
+                  style="height: 10rem"
+                ></textarea>
+                <label for="message">Mensaje *</label>
+                @if(trySend && contactForm.controls.message.invalid){
+                <div class="feedback">Ingrese su mensaje.</div>
+                }
+                <input type="text" formControlName="botField" style="display:none">
+              </div>
+              <!-- Submit Button-->
+              <div class="d-grid">
+                <button
+                  class="btn btn-primary btn-lg mb-3"
+                  id="submitButton"
+                  type="submit"
+                >
+                  Enviar
+                </button>
+              </div>
+            </form>
+            <!-- Whatsapp Button -->
+            <button
+              class="btn btn-primary btn-lg"
+              (click)="openTab('https://wa.me/593982262017')"
+              id="whatsapp"
+            >
+              Hablemos por Whatsapp
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <app-footer></app-footer>
+</main>
