@@ -20,3 +20,9 @@
 .img-fluid{
   width: 300px;
 }
+
+@media only screen and (max-width: 770px){
+  .img-hide{
+    display: none;
+  }
+}
