@@ -10,6 +10,7 @@ import { HeaderComponent } from "../../shared/header/header.component";
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
+
 export class HomeComponent {
 
 }
