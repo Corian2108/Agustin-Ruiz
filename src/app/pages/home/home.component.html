@@ -7,31 +7,39 @@
         <div class="col-xxl-5">
           <!-- Header text content-->
           <div class="text-center text-xxl-start">
-            <div class="badge bg-gradient-primary-to-secondary text-white mb-4">
-              <div class="text-uppercase">
-                UI/UX &middot; Desarrollo &middot; Presencia
+            <div
+              class="badge bg-gradient-primary-to-secondary text-white mb-4 shadow"
+            >
+              <div
+                class="text-uppercase nav"
+                routerLink="/contact"
+                [queryParams]="{
+                  message: 'Hola, quiero una solución digital .'
+                }"
+              >
+                Solicita tu solución digital personalizada
               </div>
             </div>
             <div class="fs-3 fw-light text-muted">
-              Desarrollo Web y Sistemas Empresariales
+              Ahorra tiempo, automatiza tareas y crece con tecnología
             </div>
             <h1 class="display-3 fw-bolder mb-5">
               <span class="text-gradient d-inline"
-                >Que Marcan La Diferencia</span
-              >
+                >Soluciones web, catálogos y sistemas personalizados
+              </span>
             </h1>
             <div
               class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3"
             >
               <a
                 class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder"
-                href="/resume"
-                >Experiencia</a
+                routerLink="/projects"
+                >Ver proyectos</a
               >
               <a
                 class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder"
-                href="/projects"
-                >Proyectos</a
+                routerLink="/resume"
+                >Sobre mí</a
               >
             </div>
           </div>
@@ -373,38 +381,51 @@
         <div class="col-xxl-8">
           <div class="text-center my-5">
             <h2 class="display-5 fw-bolder">
-              <span class="text-gradient d-inline">Sobre Mi</span>
+              <span class="text-gradient d-inline">Sobre Mí</span>
             </h2>
             <p class="lead fw-light mb-4">
-              Mi nombre es Agustín Ruiz y puedo ayudarte a llevar tu negocio a
-              la era digital.
+              Hola, soy Agustín Ruiz, desarrollador freelance especializado en
+              crear soluciones digitales para emprendedores y pequeñas empresas.
             </p>
             <p class="text-muted">
-              Soy un profesional del desarrollo de software con experiencia en
-              presencia digital, así como en sistemas ERP y CRM. Puedo construir
-              tu propia web dinámica, adaptable a tus necesidades, y trazar una
-              estrategia clara para el crecimiento digital de tu negocio.
+              Tengo experiencia en el desarrollo de páginas web, sistemas
+              administrativos, ERP, CRM y presencia digital. Si necesitas una
+              web profesional, un sistema que te ahorre tiempo o automatizar
+              procesos, estoy aquí para hacerlo realidad contigo.
             </p>
-            <div class="d-flex justify-content-center fs-2 gap-4">
-              <!-- <a class="text-gradient" href="#!"
-                ><i class="bi bi-twitter"></i
-              ></a> -->
-              <a
-                class="text-gradient"
-                target="_blank"
-                href="https://www.linkedin.com/in/jefferson-ruiz-54251b215/"
-                ><i class="bi bi-linkedin"></i
-              ></a>
-              <a
-                class="text-gradient"
-                target="_blank"
-                href="https://github.com/Corian2108"
-                ><i class="bi bi-github"></i
-              ></a>
-            </div>
           </div>
         </div>
       </div>
+    </div>
+  </section>
+  <section class="bg-light py-5 white text-center">
+    <h2 class="display-8 fw-bolder mb-5">
+      <span class="text-gradient d-inline"
+        >+10 soluciones reales implementadas. La próxima puede ser la
+        tuya.</span
+      >
+    </h2>
+  </section>
+  <section class="bg-light py-5">
+    <div class="d-flex justify-content-center fs-2 gap-4">
+      <a
+        class="text-gradient"
+        target="_blank"
+        href="https://www.facebook.com/profile.php?id=61577194293478"
+        ><i class="bi bi-facebook"></i
+      ></a>
+      <a
+        class="text-gradient"
+        target="_blank"
+        href="https://www.linkedin.com/in/agustin-ruiz-54251b215"
+        ><i class="bi bi-linkedin"></i
+      ></a>
+      <a
+        class="text-gradient"
+        target="_blank"
+        href="https://github.com/Corian2108"
+        ><i class="bi bi-github"></i
+      ></a>
     </div>
   </section>
   <!-- Footer -->

@@ -1,0 +1,11 @@
+.nav {
+  cursor: pointer;
+}
+
+.shadow:hover {
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.55) !important;
+}
+
+.white{
+  background-color: rgb(255, 255, 255) !important;
+}

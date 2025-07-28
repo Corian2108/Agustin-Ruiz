@@ -1,0 +1,144 @@
+<!-- Header-->
+<app-header></app-header>
+
+<!-- Iframes -->
+<section class="py-5">
+  <div class="container px-5 mb-5">
+    <div class="text-center mb-5">
+      <h1 class="display-5 fw-bolder mb-0">
+        <span class="text-gradient d-inline"
+          >Lo que puedo construir para tu negocio</span
+        >
+      </h1>
+      <p class="lead fw-light mt-3 mb-4">
+        Aquí tienes algunas ideas que podrías implementar hoy mismo. <br />
+        Son plantillas listas para personalizar según tus necesidades.
+      </p>
+    </div>
+    <div class="row gx-5 justify-content-center">
+      <div class="col-lg-11 col-xl-9 col-xxl-8">
+        <!-- Project Card 1-->
+        <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+          <iframe
+            class="height"
+            src="https://themewagon.github.io/iPortfolio/"
+            frameborder="0"
+          ></iframe>
+          <div class="card-body p-5 bggrey">
+            <h5 class="card-title">Una web profesional que hable bien de ti</h5>
+            <p class="card-text">
+              Ideal para emprendedores y negocios que necesitan una presencia
+              clara, confiable y moderna en internet. Incluye secciones de
+              servicios, contacto, portafolio, y lo que necesites mostrar.
+            </p>
+            <a
+              (click)="openWeb('https://themewagon.github.io/iPortfolio/')"
+              class="btn btn-outline-dark btn-lg px-3 py-1 fs-6"
+              >Ver demo</a
+            >
+            <br />
+            <a
+              routerLink="/contact"
+              [queryParams]="{
+                message:
+                  'Hola, Quiero que me ayudes a implementar una web profesional.'
+              }"
+              class="btn btn-primary mt-3"
+              >Me interesa esta idea</a
+            >
+          </div>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+          <iframe
+            class="height"
+            src="https://startbootstrap.com/previews/sb-admin-2"
+            frameborder="0"
+          ></iframe>
+          <div class="card-body p-5 bggrey">
+            <h5 class="card-title">
+              Control total de tu negocio en una sola pantalla
+            </h5>
+            <p class="card-text">
+              Esta plantilla es perfecta si necesitas ver reportes, manejar
+              datos o automatizar procesos internos. Se adapta a cualquier tipo
+              de sistema que estés usando o quieras implementar.
+            </p>
+            <a
+              (click)="
+                openWeb('https://startbootstrap.com/previews/sb-admin-2')
+              "
+              class="btn btn-outline-dark btn-lg px-3 py-1 fs-6"
+              >Ver demo</a
+            >
+            <br />
+            <a
+              routerLink="/contact"
+              [queryParams]="{
+                message: 'Hola, Quisiera cotizar una plataforma administrativa.'
+              }"
+              class="btn btn-primary mt-3"
+              >Me interesa esta idea</a
+            >
+          </div>
+        </div>
+
+        <!-- Project Card 3 -->
+        <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+          <iframe
+            class="height"
+            src=" https://themewagon.github.io/kaira/index.html"
+            frameborder="0"
+          ></iframe>
+          <div class="card-body p-5 bggrey">
+            <h5 class="card-title">
+              Tu propia tienda virtual, lista para vender
+            </h5>
+            <p class="card-text">
+              Aquí tienes una base para montar tu e‑commerce con carrito,
+              catálogo, formulario de pedidos y más. Lo personalizo todo para
+              que se ajuste a tu negocio y tu estilo.
+            </p>
+            <a
+              (click)="openWeb('https://themewagon.github.io/kaira/index.html')"
+              class="btn btn-outline-dark btn-lg px-3 py-1 fs-6"
+              >Ver demo</a
+            >
+            <br />
+            <a
+              class="btn btn-primary mt-3"
+              routerLink="/contact"
+              [queryParams]="{
+                message: 'Hola, me gustaría cotizar mi propia tienda online.'
+              }"
+              >Me interesa esta idea</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Call to action section-->
+<section class="py-5 bg-gradient-primary-to-secondary text-white">
+  <div class="container px-5 my-5">
+    <div class="text-center">
+      <h2 class="display-4 fw-bolder mb-4">
+        ¿Te interesa algo así?
+        <br />
+        Yo me encargo de adaptarlo a ti.
+      </h2>
+      <a
+        class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder"
+        routerLink="/contact"
+      >
+        Hablemos ahora</a
+      >
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<app-footer></app-footer>

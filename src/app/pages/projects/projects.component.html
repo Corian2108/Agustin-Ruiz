@@ -6,104 +6,104 @@
     <div class="container px-5 mb-5">
       <div class="text-center mb-5">
         <h1 class="display-5 fw-bolder mb-0">
-          <span class="text-gradient d-inline">Projects</span>
+          <span class="text-gradient d-inline">Proyectos implementados</span>
         </h1>
       </div>
       <div class="row gx-5 justify-content-center">
         <div class="col-lg-11 col-xl-9 col-xxl-8">
           <!-- Project Card 1-->
           <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
-            <div class="card-body p-0">
-              <div
-                class="d-flex align-items-center enrutado"
+            <iframe
+              class="height"
+              src="https://capitalprimeec.com/"
+              frameborder="0"
+            ></iframe>
+            <div class="card-body p-5 bggrey">
+              <h5 class="card-title">
+                Sitio web responsivo y autogestionable para Capitalprime.
+              </h5>
+              <p class="card-text">
+                Incluye catálogos dinámicos, formularios interactivos y panel
+                administrativo personalizado.
+              </p>
+              <a
                 (click)="openWeb('https://capitalprimeec.com/')"
+                class="btn btn-primary"
+                >Ver proyecto</a
               >
-                <div class="p-5">
-                  <h2 class="fw-bolder">
-                    Sitio Web Corporativo para Capitalprime
-                  </h2>
-                  <p>
-                    Desarrollé de forma integral el sitio web corporativo de
-                    Capitalprime, encargándome del frontend, backend y la base
-                    de datos. La web es completamente responsiva, dinámica y
-                    parametrizable. Presenta la información institucional de la
-                    empresa e integra catálogos dinámicos de servicios, además
-                    de formularios interactivos para contacto y solicitudes de
-                    cotización.
-                  </p>
-                </div>
-                <img
-                  class="img-fluid zoom"
-                  src="assets/Capitalprime_page.gif"
-                  alt="Sitio Web Corporativo"
-                />
-              </div>
             </div>
           </div>
+
           <!-- Project Card 2-->
           <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
-            <div class="card-body p-0">
-              <div
-                class="d-flex align-items-center enrutado"
+            <div class="d-flex flex-column">
+              <img
+                src="assets/github-mark.png"
+                alt="Card image cap"
+                style="max-width: 200px"
+                class="mx-auto d-block"
+              />
+              <img
+                class="mx-auto d-block"
+                style="max-width: 250px"
+                src="assets/GitHub_Logo.png"
+                alt="Card image cap"
+              />
+            </div>
+            <div class="card-body p-5 bggrey">
+              <h5 class="card-title">
+                Digital Waiter – App móvil para restaurantes.
+              </h5>
+              <p class="card-text">
+                Desarrollé una aplicación móvil para restaurantes que permite a
+                los comensales explorar el menú digital, realizar pedidos y
+                mejorar su experiencia en el local. La app fue creada con React
+                Native, conectada a un API en Laravel que gestiona productos,
+                pedidos y usuarios.
+              </p>
+              <a
                 (click)="
                   openWeb(
                     'https://github.com/Corian2108/k_dw_chef/tree/develop'
                   )
                 "
+                class="btn btn-primary"
+                >Ver código fuente</a
               >
-                <div class="p-5">
-                  <h2 class="fw-bolder">
-                    Digital Waiter: Aplicación movil para restaurantes.
-                  </h2>
-                  <p>
-                    Desarrollé una aplicación movil integral para restaurantes
-                    que combina funcionalidades informativas y de interacción
-                    con los clientes. La aplicación permite a los comensales
-                    explorar el menú digital y realizar pedidos, desarrollado en
-                    React Ntive. El API que consume la aplicación está
-                    desarrollado en Laravel
-                  </p>
-                </div>
-                <img
-                  class="img-fluid"
-                  src="assets/logo_github_black.jpg"
-                  alt="Plataforma Web con Juego de Fidelización"
-                />
-              </div>
             </div>
           </div>
-          <!-- Project Card -->
-          <div class="card overflow-hidden shadow rounded-4 border-0">
-            <div class="card-body p-0">
-              <div
-                class="d-flex align-items-center enrutado"
-                (click)="
-                  openWeb('https://github.com/Corian2108/k_dw_api/tree/backend')
-                "
+          <!-- Project Card 3 -->
+          <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+            <iframe
+              class="height"
+              src="https://corian2108.github.io/Agustin-Ruiz/"
+              frameborder="0"
+            ></iframe>
+            <div class="card-body p-5 bggrey">
+              <h5 class="card-title">
+                Portafolio profesional como desarrollador freelance.
+              </h5>
+              <p class="card-text">
+                Este sitio fue diseñado y desarrollado para presentar mis
+                servicios como programador freelance. Incluye secciones
+                autogestionables, estructura responsive y está optimizado para
+                destacar proyectos reales, experiencia técnica y formas de
+                contacto directo. Desarrollado con HTML, CSS, JavaScript y
+                Angular, refleja mi enfoque en soluciones funcionales y
+                visualmente limpias.
+              </p>
+              <a
+                (click)="openWeb('https://github.com/Corian2108/Agustin-Ruiz')"
+                class="btn btn-primary"
+                >Ver código fuente</a
               >
-                <div class="p-5">
-                  <h2 class="fw-bolder">
-                    Digital Waiter: API de menus y pedidos.
-                  </h2>
-                  <p>
-                    API para la aplicación Digital Waiter en Laravel, este API
-                    se comunica con una base de datos en PostgreSQL de donde
-                    obtiene todos los parámetros de los menus y permite guardar
-                    los pedidos.
-                  </p>
-                </div>
-                <img
-                  class="img-fluid"
-                  src="assets/logo_github_black.jpg"
-                  alt="Plataforma Web con Juego de Fidelización"
-                />
-              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+
   <!-- Call to action section-->
   <section class="py-5 bg-gradient-primary-to-secondary text-white">
     <div class="container px-5 my-5">
@@ -111,11 +111,190 @@
         <h2 class="display-4 fw-bolder mb-4">Construyamos algo juntos</h2>
         <a
           class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder"
-          href="/contact"
+          routerLink="/contact"
           >Contáctame</a
         >
       </div>
     </div>
+  </section>
+
+  <!-- Carousel section -->
+  <section class="py-5">
+    <div class="container px-5 mb-5">
+      <div class="fs-3 fw-light text-muted text-center text-xxl-start">
+        Otros proyectos
+      </div>
+    </div>
+    <!-- Carousel -->
+    <ngb-carousel>
+      <ng-template ngbSlide>
+        <div class="d-flex space-arnd">
+          <!-- CRM Crediprime -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="assets/crm_capitalprime.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">CRM para empresas de GSA</h5>
+              <p class="card-text">
+                Sistema interno para gestión de tickets y clientes, usado por
+                tres empresas del grupo GSA. Desarrollado con .NET y SQL Server.
+                <br />
+                <span class="badge badge-warning">Privado</span>
+              </p>
+              <a href="contact" class="btn btn-primary">Consúltame Gratis</a>
+            </div>
+          </div>
+
+          <!-- Inventarios TI -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="assets/inventarios_ti.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Inventario TI – Crediprime</h5>
+              <p class="card-text">
+                Módulo interno para controlar equipos tecnológicos, vinculado al
+                área de soporte. Implementado en entorno corporativo.
+                <br />
+                <span class="badge badge-warning">Privado</span>
+              </p>
+              <a href="contact" class="btn btn-primary">Consúltame Gratis</a>
+            </div>
+          </div>
+
+          <!-- API Digital Waiter -->
+          <div class="card" style="width: 18rem">
+            <img src="assets/api_dw_php.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">API Digital Waiter</h5>
+              <p class="card-text">
+                API RESTful que alimenta la app móvil de restaurantes. Gestiona
+                menús, pedidos y usuarios. Desarrollado en Laravel.
+                <br />
+                <span class="badge badge-warning">Privado</span>
+              </p>
+              <a href="contact" class="btn btn-primary">Consúltame Gratis</a>
+            </div>
+          </div>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <div class="d-flex space-arnd">
+          <!-- Fidelizacion DW -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="assets/fidelizacion_dw.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Fidelización DW</h5>
+              <p class="card-text">
+                Minijuego web para clientes de restaurantes. Recompensaba con
+                monedas virtuales por interacción. Insertado en el menú digital
+                de Digital Waiter.
+                <br />
+                <span class="badge badge-warning">Privado</span>
+              </p>
+              <a href="contact" class="btn btn-primary">Consúltame Gratis</a>
+            </div>
+          </div>
+
+          <!-- GAD Lloa -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="assets/inventario_gad_lloa.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Sistema Inventarios – GAD Lloa</h5>
+              <p class="card-text">
+                Plataforma de gestión de inventario físico para un Gobierno
+                Autónomo Descentralizado. Desarrollado como proyecto de
+                vinculación social.
+                <br />
+                <span class="badge badge-warning">Privado</span>
+              </p>
+              <a href="contact" class="btn btn-primary">Consúltame Gratis</a>
+            </div>
+          </div>
+
+          <!-- Juego de navidad -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="assets/juego_navidad.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Juego de Navidad</h5>
+              <p class="card-text">
+                Aventura con narrativa social, ambientada en el centro de Quito.
+                Proyecto colaborativo con temática COVID y desigualdad.
+                <br />
+                <span class="badge badge-success">Propio</span>
+              </p>
+              <a href="contact" class="btn btn-primary">Consúltame Gratis</a>
+            </div>
+          </div>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <div class="d-flex space-arnd">
+          <!-- Ninja pong -->
+          <div class="card" style="width: 18rem">
+            <div
+              style="cursor: pointer"
+              placement="end"
+              ngbTooltip="Haz clic para jugar"
+              (click)="openWeb('https://corian2108.itch.io/ping-pong-knight')"
+            >
+              <img
+                src="assets/ping-pong-knight.png"
+                class="card-img-top ppk"
+                alt="..."
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Ping Pong Knight</h5>
+              <p class="card-text">
+                Versión renovada del clásico Pong: un caballero y un ninja se
+                enfrentan golpeando una bola de fuego. Desarrollado como
+                ejercicio personal de diseño y lógica de juegos.
+                <br />
+                <span class="badge badge-success">Propio</span>
+              </p>
+              <a href="contact" class="btn btn-primary">Consúltame Gratis</a>
+            </div>
+          </div>
+
+          <!-- Próximamente -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="assets/proximamente.png"
+              class="card-img-top ppk"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Próximamente</h5>
+              <p class="card-text">
+                Varios proyectos innovadores en desarrollo: app de reservas,
+                dashboard analítico y más soluciones a medida.
+                <br />
+                <span class="badge badge-success">¡Mantente atento!</span>
+              </p>
+              <a href="contact" class="btn btn-primary">Consúltame Gratis</a>
+            </div>
+          </div>
+        </div>
+      </ng-template>
+    </ngb-carousel>
   </section>
   <!-- Footer -->
   <app-footer></app-footer>

@@ -1,0 +1,10 @@
+
+@media only screen and (max-width: 495px) {
+    .hide-cell{
+        display: none;
+    }
+    
+    .respo-cell{
+        justify-content: center !important;
+    }
+}

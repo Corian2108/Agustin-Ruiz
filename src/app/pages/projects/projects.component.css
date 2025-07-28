@@ -1,22 +1,47 @@
-.zoom {
-  transform: 0.5s;
+.bggrey {
+  background-color: #f8f9fa;
 }
 
-.zoom:hover {
-  -ms-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
+.height {
+  min-height: 500px;
 }
 
-.enrutado{
-  cursor: pointer;
+.space-arnd {
+  justify-content: space-around;
 }
 
-.contDummyImg{
-  background-color: black;
-  height: 100%;
+.badge {
+  color: black;
 }
 
-.img-fluid{
-  width: 300px;
+.badge-warning {
+  background-color: #ffc107;
+}
+
+.badge-success {
+  background-color: #28a745;
+}
+
+.ppk{
+  margin-block: 56px;
+}
+
+.card-text{
+  max-height: 12rem;
+}
+
+/* Estos estilos no están funcionando */
+:root ::ng-deep,
+[data-bs-theme="light"] {
+  --bs-carousel-indicator-active-bg: #595959 !important;
+}
+
+.carousel-control-next-icon ::ng-deep {
+  background-color: black !important;
+  border-radius: 4px !important;
+}
+
+.carousel-control-prev-icon ::ng-deep {
+  background-color: black !important;
+  border-radius: 4px !important;
 }
