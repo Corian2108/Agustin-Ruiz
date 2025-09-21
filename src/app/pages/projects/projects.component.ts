@@ -20,7 +20,7 @@ export class ProjectsComponent {
   }
 
 	constructor(config: NgbCarouselConfig) {
-		config.interval = 5000;
+		config.interval = 10000;
 		config.keyboard = false;
 		config.pauseOnHover = false;
 	}
